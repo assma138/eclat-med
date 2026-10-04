@@ -1,7 +1,7 @@
 import { Mail, MapPinned, Phone } from "lucide-react";
 
 const FORMSPREE_ENDPOINT =
-  "https://formspree.io/f/REPLACE_WITH_FORMSPREE_FORM_ID";
+  "https://formspree.io/f/xdeanydk";
 
 export function Contact() {
   return (
@@ -51,7 +51,7 @@ export function Contact() {
 
           <div className="border-t border-white/15 pt-8 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
             <form
-              action="https://formspree.io/f/xdeanydk"
+              action={FORMSPREE_ENDPOINT}
               method="POST"
               className="space-y-4 text-sm text-[#edf1f7]"
             >
